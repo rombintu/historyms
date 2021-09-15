@@ -1,0 +1,13 @@
+# Secret files
+# settings.py.
+
+# Ignore dynaconf secret files
+.secrets.yaml
+settings.yaml
+.env
+
+# database
+*.sqlite3
+
+# trash
+venv

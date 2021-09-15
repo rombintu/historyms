@@ -1,0 +1,15 @@
+default:
+  DATABASES:
+    # default:
+    #   ENGINE: django.db.backends.sqlite3
+    #   NAME: db.sqlite3
+
+    default:
+      ENGINE: mssql
+      NAME: database
+      USER: sa
+      PASSWORD: Strong(123)Password
+      HOST: localhost
+      PORT: 1433
+      OPTIONS: 
+        driver: ODBC Driver 17 for SQL Server
